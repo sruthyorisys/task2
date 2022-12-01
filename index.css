@@ -1,0 +1,280 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+.section-navbar {
+   padding: 10px;
+}
+.navbar li a{
+    color: black;
+}
+.startbtn {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: #F66F4D;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid #F66F4D;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    margin-right: 80px;
+    width: 150px;
+    height: 50px;
+}
+  .startbtn:hover {
+    color: #FFF;
+    background: #F66F4D;
+    border: 2px solid #F66F4D;
+  } */
+/* banner*/
+.banner .row{
+    margin-top: 20px;
+}
+.banner h1{
+    margin-top: 120px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.banner h1 span{
+    display: block;
+}
+.banner .text{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.banner table{
+    padding: 5px;
+}
+
+tr td:nth-child(1){
+   padding-right: 80px;
+   
+}
+tr td i{
+    padding-right: 80px;
+    color: #F66F4D;
+    
+ }
+.text table{
+    background-color:#FDFEFF;
+    border-radius: 10%;
+    padding: 10%;
+    color: black;
+    margin-top: 10px;
+    
+  
+}
+.text table td{
+    font-weight: bolder;
+}
+.text table td span{
+    font-weight: lighter;
+}
+
+
+/* categories */
+.categories{
+    margin-top: 0px;
+}
+/* .card3{
+    width: 18rem;
+} */
+
+/* .img4 {
+    margin-left: -5px;
+} */
+.destination{
+    padding: 10px;
+}
+.categories p{
+    text-decoration: center;
+}
+
+
+
+
+
+
+/* experience */
+.experience{
+    margin-top: 8%;
+}
+.experience .row1 img{
+    margin-left: -30px;
+}
+.para{
+    margin-top: 8%;
+}
+tr td:nth-child(2){
+    padding-right: 80px;
+ }
+ .para table td{
+    color: #F66F4D;
+    font-size: 40px;
+    font-weight: bolder;
+ }
+ .para table td p{
+    font-size: 20px;
+    font-weight: lighter;
+ }
+ .para h5{
+    color: #F66F4D;
+ }
+ /* destination */
+ .destination{
+    margin: auto;
+ 
+    /* margin-left: 150px; */
+ }
+ /* .destination .row{
+    margin-left:5px;
+ } */
+ .destination .card1{
+    margin-left:-70px;
+    
+ }
+ .destination .card2{
+    margin-left:-55px;
+ }
+ .destination .card3{
+    margin-left: -40px;
+ }
+ .destination .card4{
+    margin-left: -30px;
+ }
+ 
+/* .card-section{
+    margin-left: 40px;
+} */
+ .btn-primary {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color:black;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+ }
+   .btn .btn-dark {
+     border-radius: 50%;
+     text-align: right;
+    
+    
+
+   }
+   .destination  table td{
+    display: block;
+   }
+   .card{
+    border-radius: 10%;
+   }
+  
+   /* top */
+  .buttons button{
+    padding-right:30px ;
+ }
+ .section{
+    margin-left: 15px;
+    margin-top: 20px;
+    /* padding: 10%; */
+ }
+ 
+ .img4 img:nth-child(1){
+    margin-left: -30px;
+  
+} 
+ .img4 img:nth-child(2){
+     margin-left: -30px;
+} 
+.top{
+    margin-top: 10px;
+    
+}
+
+
+.checked {
+    color: orange;
+}
+/* customer */
+.customer{
+    margin-top: 50px;
+} 
+/* signup */
+ .signup{
+    margin: 10px 20%;
+    background-color:#FFD482;
+    height: 200px;
+    width: 70%;
+    border-radius: 15px 15px;
+   
+}
+.form-group {
+    margin:0;
+    padding:20px ;
+
+}
+.form-control {
+
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    min-height:50px;
+    height: auto;
+    border-radius:0 50 0 50;
+    width:30px;
+}
+.input-group{
+    padding-left: 320px;
+    padding-right:330px;
+ 
+} 
+/* footer */
+.footer{
+    margin-top: 50px;
+    padding: 20px;
+    flex-grow: 1;
+}
+.footer>div{
+   
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer div:nth-child(2){
+    padding: 10px;
+}
+.socialmedia ol,ul{
+    padding-left: 0rem !important;
+}
+.socialmedia i{
+    color: #F66F4D;
+    border: 1px solid #F66F4D;
+    border-radius: 50%;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 32px;
+    -webkit-border-radius: 50%;
+    margin:0 5px;
+}
+.socialmedia li{
+    display: inline-block;
+}
+.socialmedia .icons{
+    color:black;
+    border: 1px solid black;
+}
+@media  (max-width: 576px) {
+    .destination .card1{
+        margin-left:none;
+        
+     }
+}
+   
